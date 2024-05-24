@@ -7,7 +7,7 @@ from torch.optim import lr_scheduler
 from torchvision import models
 from torchvision import transforms
 import torch.optim as optim
-from EntroMixer import AttentionBlock, rank, vfe
+from VisualMixer import AttentionBlock, rank, vfe
 import os
 import scipy.fftpack as fp
 from PIL import ImageFile
